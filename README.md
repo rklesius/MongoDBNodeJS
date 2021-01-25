@@ -9,6 +9,6 @@ This sample code was used for the UF Swamphacks 2021 on behalf of Citi and creat
 
 ## How to Run
 
-The tutorial is broken down into different folders and is designed so that you can run each folder individually.  Clone the repository and then open the command line in the desired folder.  Run `npm install` to install all the dependencies and create your node_modules folder.  Then run `node Grades.js` to run the code.  
+The tutorial is broken down into different folders and is designed so that you can run each folder individually.  Clone the repository and then open the command line in the desired folder.  Run `npm install` to install all the dependencies and create your node_modules folder.  Then run `node server.js` to run the code.  
 
-Some folders will serve on http://localhost:8080/ 
+All folders except ConnectionTest will serve on http://localhost:8080/ 
