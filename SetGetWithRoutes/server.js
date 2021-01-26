@@ -49,7 +49,7 @@ app.get('/movie-list', (req, res) => {
 
 //i.e http://localhost:8080/find?title=Alien
 app.get('/find', (req, res) => {
-    var movieTitle = req.query.title;
+    const movieTitle = req.query.title;
     console.log(movieTitle);
     Movie.find({ title: movieTitle})
         .then((results) => {
@@ -58,4 +58,25 @@ app.get('/find', (req, res) => {
         .catch((err) => {
             console.log(err)
         })
+})
+
+app.get('/new-movie', (req,res) => {
+    const movieTitle = req.query.title;
+    const movieDirector = req.query.director;
+    const movieYear = req.query.year;
+    // console.log(movieTitle);
+    // console.log(movieDirector);
+    // console.log(movieYear);
+    const movie = new Movie({
+        title: movieTitle,
+        director: movieDirector,
+        yearReleased: movieYear
+    });
+    movie.save()
+    .then((result) => {
+        res.send(result)
+    })
+    .catch((err) => {
+        console.log(err);
+    });
 })
