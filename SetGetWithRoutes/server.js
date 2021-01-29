@@ -60,6 +60,7 @@ app.get('/find', (req, res) => {
         })
 })
 
+//i.e. http://localhost:8080/new-movie?title=The+Terminator&director=James+Cameron&year=1984
 app.get('/new-movie', (req,res) => {
     const movieTitle = req.query.title;
     const movieDirector = req.query.director;
