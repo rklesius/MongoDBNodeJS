@@ -4,7 +4,7 @@ This sample code was used for the UF Swamphacks 2021 on behalf of Citi and creat
 
 ## Companion Resources
 
-- [Presentation](https://docs.google.com/presentation/d/1Xy13l2pBNBETjU2nivAgC-mqTXfsfrQk7BAJcTjoymg/edit?usp=sharing)
+- [Presentation](https://docs.google.com/presentation/d/12Bs8diP0PR3O1gwubXLS7AbSXrcUkXIJdV_t4Vveik0/edit?usp=sharing)
 - [Presenter's Notes](https://docs.google.com/document/d/1O17ssZJXqcrdttX4wtkuPbjQ5bFfXvlzE1-BRhF3PhI/edit?usp=sharing)
 
 ## How to Run
