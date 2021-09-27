@@ -5,9 +5,9 @@ const Movie = require('./models/movie')
 //Our express app for serving
 const app = express();
 
-const dbConnection = "mongodb+srv://rklesius:rachel1234@movie-cluster.5jxgj.mongodb.net/moviedb?retryWrites=true&w=majority"
+const dbConnection = "mongodb+srv://rachel:rachel1234@moviedb.jgvmi.mongodb.net/MovieDB?retryWrites=true&w=majority"
 
-Mongoose.connect(dbConnection, {useNewUrlParser: true, useUnifiedTopology: true})
+Mongoose.connect(dbConnection)
     .then((result) => app.listen(8080))
     .catch((err) => console.log(err));
 

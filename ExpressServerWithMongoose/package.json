@@ -1,7 +1,17 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "expressserverwithmongoose",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongodb": "^3.6.3",
-    "mongoose": "^5.11.13"
-  }
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.8"
+  },
+  "description": ""
 }
