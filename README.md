@@ -1,6 +1,6 @@
 # MongoDB with Node.js 
 
-This sample code was used for the UF Swamphacks 2021 on behalf of Citi and created by Rachel Klesius.  This code is a teaching tool for using MongoDB with Node.js as a backend.
+This code is a teaching tool for using MongoDB with Node.js as a backend.
 
 ## Companion Resources
 
